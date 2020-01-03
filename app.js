@@ -1,6 +1,5 @@
 const express = require('express'),
         app = express(),
-        rp = require('request-promise'),
         bodyParser = require('body-parser'),
 		mongoose = require('mongoose'),
 		Location = require('./models/location')
