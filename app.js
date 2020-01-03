@@ -40,6 +40,6 @@ app.post("/route", (req, res)=> {
 
 var port = process.env.PORT || 8081;
 
-app.listen(prompt, (req, res)=> {
+app.listen(port, (req, res)=> {
     console.log('Server is connected');
 });
