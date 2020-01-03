@@ -22,22 +22,6 @@ mongoose.connect('mongodb+srv://' + process.env.DB_USERNAME + ':' + process.env.
 	console.log("ERROR:", err.msg);
 });
 
-// Location.create({
-// 	name: "ICICS",
-// 	entrances: [
-// 		{
-// 			lat: 49.267656,
-// 			long: 123.249495
-// 		}
-// 	]
-// }, (err, location)=> {
-// 	if(err) {
-// 		console.log(err);
-// 	} else {
-// 		console.log(location);
-// 	}
-// });
-
 //Home page
 app.get("/", (req, res)=> {
 	Location.find({}, (err, locations)=> {
@@ -54,6 +38,8 @@ app.post("/route", (req, res)=> {
 	});
 });
 
-app.listen(8081, (req, res)=> {
-    console.log('Server is connected on PORT 8081');
+var port = process.env.PORT || 8081;
+
+app.listen(prompt, (req, res)=> {
+    console.log('Server is connected');
 });
