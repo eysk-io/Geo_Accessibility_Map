@@ -1,0 +1,199 @@
+body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: #868e96;
+    text-align: center;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Open Sans','Saira Extra Condensed', -apple-system, BlinkMacSystemFont, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  .container-fluid {
+    background-color: #f5f5dc;
+  }
+  
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: solid grey 2px;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+      transition: 0.2s;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: #BD5D38;
+  }
+  
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  #sideNav .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+  
+  section.main-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+  
+  section.main-section .main-item .main-date {
+    min-width: none;
+    
+  }
+  
+  @media (min-width: 992px) {
+    section.main-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #05668D !important;
+  }
+  
+  .text-primary {
+    color: #BD5D38 !important;
+  }
+  
+  a {
+    color: #BD5D38;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #824027;
+  }
+  
+  strong {
+    color: #00A896;
+  }
+  
+  
+  footer {
+    background-color: #028090;
+    color: #c6c8ca;
+  }
+  
+  footer strong {
+    color: #F0F3BD;
+  }
+  
+  .footer-team {
+    color: #00A896;
+  }
+  
+  .fab, .fa {
+    color: #00A896;
+  }
+  
+  .infographic {
+    border-radius: 9999px;
+    border: solid 3px;
+  }
+  
+  .infographic-container{
+    text-align: center;
+  }
+  
+  
+  #one {
+    margin: 0 auto;
+  }
+  
+  #onetwo, #two {
+    background-color: #feffea;
+  }
+  
+  .no-color {
+    border-color: rgba(134, 142, 150, 0);
+  }
