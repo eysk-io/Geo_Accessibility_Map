@@ -38,7 +38,7 @@ app.post("/route", (req, res)=> {
 	});
 });
 
-var port = process.env.PORT || 8081;
+var port = process.env.PORT||3000;
 
 app.listen(port, (req, res)=> {
     console.log('Server is connected');
